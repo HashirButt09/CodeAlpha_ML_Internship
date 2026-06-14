@@ -1,0 +1,17 @@
+Speech Emotion Recognition (SER) Bot
+
+An interactive deep learning web application that uses a 1D Convolutional Neural Network (CNN) to classify human emotions from audio signals in real-time.
+
+Features
+* Live audio recording via your microphone or `.wav`/`.mp3` file upload.
+* Feature extraction tracking (40 MFCCs, 12 Chroma, and 128 Mel Spectrogram dimensions).
+* Real-time interactive waveform visualization powered by Plotly.
+* Complete probability distribution breakdown across 8 core target emotions.
+
+Tech Stack
+* Framework: Streamlit
+* Deep Learning Engine: TensorFlow / Keras
+* Signal Processing: Librosa & Soundfile
+
+How to Run Locally
+* If you are on Windows, simply double-click the `run_app.bat` file to automatically set up your virtual environment, install dependencies, and launch the server!
