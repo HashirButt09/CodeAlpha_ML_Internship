@@ -1,21 +1,28 @@
-Speech Emotion Recognition (SER) Bot
+# 🎙️ Speech Emotion Recognition (SER) Bot
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://speech-emotion-ser.streamlit.app)
 
 An interactive Deep Learning web application powered by a **1D Convolutional Neural Network (CNN)** and **TensorFlow** to classify emotions from speech signals in real-time.
 
-Live Deployment URL: [https://speech-emotion-ser.streamlit.app](https://speech-emotion-ser.streamlit.app)
+🚀 **Live Deployment URL:** https://speech-emotion-ser.streamlit.app
 
-Features
-* Live audio recording via your microphone or `.wav`/`.mp3` file upload.
-* Feature extraction tracking (40 MFCCs, 12 Chroma, and 128 Mel Spectrogram dimensions).
-* Real-time interactive waveform visualization powered by Plotly.
-* Complete probability distribution breakdown across 8 core target emotions.
+---
 
-Tech Stack
-* Framework: Streamlit
-* Deep Learning Engine: TensorFlow / Keras
-* Signal Processing: Librosa & Soundfile
+## 🌟 Features
+* **Live Audio Recording:** Record voice samples live via your microphone container or upload `.wav`, `.mp3`, or `.m4a` file tracks.
+* [cite_start]**Feature Extraction Tracking:** Extracts a stacked 180-dimensional feature vector (40 MFCCs, 12 Chroma, and 128 Mel Spectrogram dimensions) averaged over the time axis[cite: 5].
+* [cite_start]**Real-Time Visualization:** Interactive time-domain waveform visualization powered by Plotly[cite: 5].
+* [cite_start]**Deep Evaluation:** Complete probability distribution breakdown across 8 core target emotion nodes[cite: 5].
 
-How to Run Locally
-* If you are on Windows, simply double-click the `run_app.bat` file to automatically set up your virtual environment, install dependencies, and launch the server!
+## 🛠️ Tech Stack
+* [cite_start]**Framework:** Streamlit [cite: 1]
+* [cite_start]**Deep Learning Engine:** TensorFlow / Keras [cite: 1, 5]
+* [cite_start]**Signal Processing:** Librosa & Soundfile [cite: 1, 5]
+* [cite_start]**Data Visualization:** Plotly & Matplotlib [cite: 1, 5]
+
+## 💻 How to Run Locally
+If you are on Windows, you can launch the app locally without manual setup:
+1. Clone or download this repository.
+2. [cite_start]Simply double-click the `run_app.bat` file[cite: 2]. 
+
+[cite_start]The bootloader script will automatically detect or create your local virtual Python environment, fetch all missing dependencies from `requirements.txt`, and boot up the web interface on your localhost[cite: 2, 3, 4].
