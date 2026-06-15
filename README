@@ -2,7 +2,9 @@ Speech Emotion Recognition (SER) Bot
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://speech-emotion-ser.streamlit.app)
 
-An interactive deep learning web application that uses a 1D Convolutional Neural Network (CNN) to classify human emotions from audio signals in real-time.
+An interactive Deep Learning web application powered by a **1D Convolutional Neural Network (CNN)** and **TensorFlow** to classify emotions from speech signals in real-time.
+
+Live Deployment URL: [https://speech-emotion-ser.streamlit.app](https://speech-emotion-ser.streamlit.app)
 
 Features
 * Live audio recording via your microphone or `.wav`/`.mp3` file upload.
